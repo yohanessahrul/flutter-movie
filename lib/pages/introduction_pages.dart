@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import './login_page.dart';
 import './home_page.dart';
 
 class IntoructionPage extends StatelessWidget {
@@ -29,7 +30,7 @@ class IntoructionPage extends StatelessWidget {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => HomePage(),
+            builder: (context) => LoginPage(),
           ),
         );
       },
