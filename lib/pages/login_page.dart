@@ -12,6 +12,15 @@ class LoginPage extends StatelessWidget {
             padding: EdgeInsets.all(32),
             child: Column(
               children: [
+                Text(
+                  "Sign In",
+                  style: TextStyle(
+                    fontSize: 28,
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
                 TextField(
                   autocorrect: true,
                   decoration: InputDecoration(
